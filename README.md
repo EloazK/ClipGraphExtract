@@ -5,12 +5,8 @@
 - Tiling : we define a grid cell (Gcell) that has a size of seven times the SITE ROW in units of a prediction pixel  
 - Feature extraction : we extract a total of 49 features ( 17 in the placement stage, 32 in the early global route stage) by using ClipGraphExtract
     - Placement (17 features)
-    
 
 <table class="tg">
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-rvyq{border-color:inherit;font-style:italic;font-weight:bold;text-align:center;vertical-align:top}
 </style>
 <thead>
   <tr>
@@ -47,8 +43,6 @@
   </tr>
 </tbody>
 </table>
- 
- 
 <!--  
 | cell density 	| number of instances 	| RUDY 	| wire density 	|
 |:---:	|:---:	|:---:	|:---:	|
