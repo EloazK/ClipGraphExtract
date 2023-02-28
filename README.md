@@ -1,7 +1,8 @@
 # FeatureExtraction
 
 <!-- | <img src="/doc/overall_routablity_prediction_flow.png" width=1200px> | -->
-| <img src="https://github.com/EloazK/FeatureExtraction/blob/anonymous_github/doc/overall_routablity_prediction_flow.png" width=1200px> |
+<!-- | <img src="https://github.com/EloazK/FeatureExtraction/blob/anonymous_github/doc/overall_routablity_prediction_flow.png" width=1200px> | -->
+| <img src="https://anonymous.4open.science/r/FeatureExtraction-DFC6/doc/overall_routablity_prediction_flow.png" width=1200px> |
 |:--:|
 | Overall routability prediction flow |
 - Tiling : we define a grid cell (Gcell) that has a size of seven times the SITE ROW in units of a prediction pixel  
