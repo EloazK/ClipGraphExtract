@@ -16,11 +16,11 @@
 
     - EGR (32 features)
     
-        | wire density<sub>i</sub> 	| local net density 	| vertical channel density 	| worst negative slack 	|
-        |:---:	|:---:	|:---:	|:---:	|
-        | **channel density<sub>i</sub>** 	| **global net density** 	| **horizontal channel density** 	| **total negative slack** 	|
-        | **via density<sub>i</sub>** 	| **channel density** 	| **global net RUDY** 	| **vertical channel density** 	|
-        | where i ∈ {1, · · · , 8} represents the layer number|  	|  	|  	|
+        | wire density<sub>i</sub> 	| local net density 	| vertical channel density 	| 	
+        |:---:	|:---:	|:---:	|
+        | **channel density<sub>i</sub>** 	| **global net density** 	| **horizontal channel density** 	|
+        | **via density<sub>i</sub>** 	| **channel density** 	| **worst negative slack**	|  
+        | where i ∈ {1, · · · , 8} represents the layer number  	|  **total negative slack** 	|
 
 
 ## ClipGraphExtract
