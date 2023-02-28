@@ -2,14 +2,11 @@
 | <img src="/doc/overall_routablity_prediction_flow.png" width=1200px> |
 |:--:|
 | Overall routability prediction flow |
-- Tiling : the tile size affects the performance of the model, we consider the value of parameter "g" ranging from 5 to 10 as integer multiples of the SITE ROW 
+- Tiling : the tile size affects the performance of the model, we consider the value of parameter "g" 7 as integer multiples of the SITE ROW 
 - Feature extraction : we extract a total of 49 features ( 17 in the placement stage, 32 in the early global route stage) by using ClipGraphExtract
     - Placement (17 features): cell density, pin density, flipflop ratio, average terminals, number of instances, number of nets, number of terminals, number of global nets, number of local nets, RUDY, local net RUDY, global net RUDY, special net RUDY, wire density, channel density, vertical channel density, and horizontal channel density
     - EGR (32 features): wire density<sub>i</sub>, channel density<sub>i</sub>, via density<sub>i</sub> (where i ∈ {1, · · · , 8} represents the layer number), local net density, global net density, channel density, vertical channel density, horizontal channel density, worst negative slack, and total negative slack 
 
-<!-- - Clipping by sliding window : we clip the feature map around the target Gcell at the specified window size w for every (x, y).
-- Tile-level routability prediction :
- -->
 
 # ClipGraphExtract
 - The base sources are copied from [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) repo, commit: [7156dc](https://github.com/The-OpenROAD-Project/OpenROAD/commit/7156dc41b0be75e9090b456103a2a1510913a4d2). Unessential repos are removed to be compiled well in other environments.
