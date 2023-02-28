@@ -6,13 +6,6 @@
 - Feature extraction : we extract a total of 49 features ( 17 in the placement stage, 32 in the early global route stage) by using ClipGraphExtract
     - Placement (17 features)
     
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
@@ -52,13 +45,13 @@
 </table>
  
  
- 
+<!--  
 | cell density 	| number of instances 	| RUDY 	| wire density 	|
 |:---:	|:---:	|:---:	|:---:	|
 | **pin density** 	| **number of nets** 	| **local net RUDY** 	| **channel density** 	|
 | **flipflop ratio** 	| **number of terminals** 	| **global net RUDY** 	| **vertical channel density** 	|
 | **average terminals** 	| **number of global nets** 	| **special net RUDY** 	| **horizontal channel density** 	|
-|  	| **number of local nets** 	|  	|  	|
+|  	| **number of local nets** 	|  	|  	| -->
 
     - EGR (32 features)
     
