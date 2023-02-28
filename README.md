@@ -7,6 +7,7 @@
     - Placement (17 features)
 
     | cell density 	| number of instances 	| RUDY 	| wire density 	|
+    |:---:	|:---:	|:---:	|:---:	|
     | pin density 	| number of nets 	| local net RUDY 	| channel density 	|
     | flipflop ratio 	| number of terminals 	| global net RUDY 	| vertical channel density 	|
     | average terminals 	| number of global nets 	| special net RUDY 	| horizontal channel density 	|
