@@ -1,4 +1,15 @@
+# Overall routability prediction flow 
+| <img src="/doc/overall_routablity_prediction_flow.png" width=1200px> |
+|:--:|
+| Overall routability prediction flow |
+- Tile : the tile size affects the performance of the model, we consider the value of parameter "g" ranging from 5 to 10 as integer multiples of the SITE ROW 
+- Feature extraction : we extract a total of 49 features ( 17 in the placement stage, 32 in the early global route stage) by using ClipGraphExtract
+placement : 17 table format
+early global route : 32 table 
 
+<!-- - Clipping by sliding window : we clip the feature map around the target Gcell at the specified window size w for every (x, y).
+- Tile-level routability prediction :
+ -->
 
 # ClipGraphExtract
 - The base sources are copied from [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) repo, commit: [7156dc](https://github.com/The-OpenROAD-Project/OpenROAD/commit/7156dc41b0be75e9090b456103a2a1510913a4d2). Unessential repos are removed to be compiled well in other environments.
@@ -12,16 +23,6 @@
 - Using OpenDB's C++ API, save all instances' bbox to Boost/RTree structure. 
 - Send a region query to RTree to extract related instances using the clips' coordinates.
 - Generate clip graph's clique/star net models as text file (e.g. edges list) for graph neural network models.
-
-## Feature
-| <img src="/doc/overall_routablity_prediction_flow.png" width=1200px> |
-|:--:|
-| Overall routability prediction flow |
-- Tile : 
-- Feature extraction : 
-- Clipping by sliding window : 
-- Tile-level routability prediction :
-
 
 ## File Structure
 -  include/openroad/  
