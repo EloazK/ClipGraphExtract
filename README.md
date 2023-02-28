@@ -44,7 +44,7 @@
 </table> -->
 
 | cell density 	| number of instances 	| RUDY 	| wire density 	|
-|:---:	|:---:	|:---:	|:---:	|
+|---	|---	|---	|---	|
 | **pin density** 	| **number of nets** 	| **local net RUDY** 	| **channel density** 	|
 | **flipflop ratio** 	| **number of terminals** 	| **global net RUDY** 	| **vertical channel density** 	|
 | **average terminals** 	| **number of global nets** 	| **special net RUDY** 	| **horizontal channel density** 	|
@@ -54,7 +54,7 @@
     - EGR (32 features)
     
 | wire density<sub>i</sub> 	| local net density 	| vertical channel density 	| 	
-|:---:	|:---:	|:---:	|
+|---	|---	|---	|
 | **channel density<sub>i</sub>** 	| **global net density** 	| **horizontal channel density** 	|
 | **via density<sub>i</sub>** 	| **channel density** 	| **worst negative slack**	|  
 | _where i ∈ {1, · · · , 8} represents the layer number_  	||  **total negative slack** 	|
