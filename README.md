@@ -6,8 +6,9 @@
 - Feature extraction : we extract a total of 49 features ( 17 in the placement stage, 32 in the early global route stage) by using ClipGraphExtract
     - Placement (17 features)
  
-        |:---:	|:---:	|:---:	|:---:	|
+
         | cell density 	| number of instances 	| RUDY 	| wire density 	|
+        |:---:	|:---:	|:---:	|:---:	|
         | **pin density** 	| **number of nets** 	| **local net RUDY** 	| **channel density** 	|
         | **flipflop ratio** 	| **number of terminals** 	| **global net RUDY** 	| **vertical channel density** 	|
         | **average terminals** 	| **number of global nets** 	| **special net RUDY** 	| **horizontal channel density** 	|
