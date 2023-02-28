@@ -6,20 +6,20 @@
 - Feature extraction : we extract a total of 49 features ( 17 in the placement stage, 32 in the early global route stage) by using ClipGraphExtract
     - Placement (17 features)
  
-        | cell density 	| number of instances 	| RUDY 	| wire density 	|
-        |:---:	|:---:	|:---:	|:---:	|
-        | **pin density** 	| **number of nets** 	| **local net RUDY** 	| **channel density** 	|
-        | **flipflop ratio** 	| **number of terminals** 	| **global net RUDY** 	| **vertical channel density** 	|
-        | **average terminals** 	| **number of global nets** 	| **special net RUDY** 	| **horizontal channel density** 	|
-        |  	| **number of local nets** 	|  	|  	|
+| cell density 	| number of instances 	| RUDY 	| wire density 	|
+|:---:	|:---:	|:---:	|:---:	|
+| **pin density** 	| **number of nets** 	| **local net RUDY** 	| **channel density** 	|
+| **flipflop ratio** 	| **number of terminals** 	| **global net RUDY** 	| **vertical channel density** 	|
+| **average terminals** 	| **number of global nets** 	| **special net RUDY** 	| **horizontal channel density** 	|
+|  	| **number of local nets** 	|  	|  	|
 
     - EGR (32 features)
     
-        | wire density<sub>i</sub> 	| local net density 	| vertical channel density 	| 	
-        |:---:	|:---:	|:---:	|
-        | **channel density<sub>i</sub>** 	| **global net density** 	| **horizontal channel density** 	|
-        | **via density<sub>i</sub>** 	| **channel density** 	| **worst negative slack**	|  
-        | _where i ∈ {1, · · · , 8} represents the layer number_  	||  **total negative slack** 	|
+| wire density<sub>i</sub> 	| local net density 	| vertical channel density 	| 	
+|:---:	|:---:	|:---:	|
+| **channel density<sub>i</sub>** 	| **global net density** 	| **horizontal channel density** 	|
+| **via density<sub>i</sub>** 	| **channel density** 	| **worst negative slack**	|  
+| _where i ∈ {1, · · · , 8} represents the layer number_  	||  **total negative slack** 	|
 
 
 ## ClipGraphExtract
