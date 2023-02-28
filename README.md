@@ -6,17 +6,50 @@
 - Feature extraction : we extract a total of 49 features ( 17 in the placement stage, 32 in the early global route stage) by using ClipGraphExtract
     - Placement (17 features)
     
-+---------------------+-----------------------+------------------+----------------------------+
-|     cell density    |  number of instances  |       RUDY       |        wire density        |
-+---------------------+-----------------------+------------------+----------------------------+
-|     pin density     |     number of nets    |  local net RUDY  |       channel density      |
-+---------------------+-----------------------+------------------+----------------------------+
-|    flipflop ratio   |  number of terminals  |  global net RUDY |  vertical channel density  |
-+---------------------+-----------------------+------------------+----------------------------+
-| _average terminals_ | number of global nets | special net RUDY | horizontal channel density |
-+---------------------+-----------------------+------------------+----------------------------+
-|                     |  number of local nets |                  |                            |
-+---------------------+-----------------------+------------------+----------------------------+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow">cell density</th>
+    <th class="tg-c3ow">number of instances</th>
+    <th class="tg-c3ow">RUDY</th>
+    <th class="tg-c3ow">wire density</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">pin density</td>
+    <td class="tg-c3ow">number of nets</td>
+    <td class="tg-c3ow">local net RUDY</td>
+    <td class="tg-c3ow">channel density</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">flipflop ratio</td>
+    <td class="tg-c3ow">number of terminals</td>
+    <td class="tg-c3ow">global net RUDY</td>
+    <td class="tg-c3ow">vertical channel density</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><span style="font-style:italic">average terminals</span></td>
+    <td class="tg-c3ow">number of global nets</td>
+    <td class="tg-c3ow">special net RUDY</td>
+    <td class="tg-c3ow">horizontal channel density</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">number of local nets</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+</tbody>
+</table>
  
  
  
