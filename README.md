@@ -5,8 +5,7 @@
 - Tiling : we define a grid cell (Gcell) that has a size of seven times the SITE ROW in units of a prediction pixel  
 - Feature extraction : we extract a total of 49 features ( 17 in the placement stage, 32 in the early global route stage) by using ClipGraphExtract
     - Placement (17 features)
-
-<table class="tg">
+<!-- <table class="tg">
 </style>
 <thead>
   <tr>
@@ -30,7 +29,7 @@
     <td class="tg-7btt">vertical channel density</td>
   </tr>
   <tr>
-    <td class="tg-rvyq"><span style="font-style:italic">average terminals</span></td>
+    <td class="tg-rvyq">average terminals</span></td>
     <td class="tg-7btt">number of global nets</td>
     <td class="tg-7btt">special net RUDY</td>
     <td class="tg-7btt">horizontal channel density</td>
@@ -42,15 +41,16 @@
     <td class="tg-7btt"></td>
   </tr>
 </tbody>
-</table>
-<!--  
+</table> -->
+
 | cell density 	| number of instances 	| RUDY 	| wire density 	|
 |:---:	|:---:	|:---:	|:---:	|
 | **pin density** 	| **number of nets** 	| **local net RUDY** 	| **channel density** 	|
 | **flipflop ratio** 	| **number of terminals** 	| **global net RUDY** 	| **vertical channel density** 	|
 | **average terminals** 	| **number of global nets** 	| **special net RUDY** 	| **horizontal channel density** 	|
-|  	| **number of local nets** 	|  	|  	| -->
+|  	| **number of local nets** 	|  	|  	| 
 
+- 
     - EGR (32 features)
     
 | wire density<sub>i</sub> 	| local net density 	| vertical channel density 	| 	
