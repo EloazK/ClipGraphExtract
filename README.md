@@ -14,7 +14,13 @@
         | **average terminals** 	| **number of global nets** 	| **special net RUDY** 	| **horizontal channel density** 	|
         |  	| **number of local nets** 	|  	|  	|
 
-    - EGR (32 features): wire density<sub>i</sub>, channel density<sub>i</sub>, via density<sub>i</sub> (where i ∈ {1, · · · , 8} represents the layer number), local net density, global net density, channel density, vertical channel density, horizontal channel density, worst negative slack, and total negative slack 
+    - EGR (32 features)
+    
+        | wire density<sub>i</sub> 	| local net density 	| vertical channel density 	| worst negative slack 	|
+        |:---:	|:---:	|:---:	|:---:	|
+        | **channel density<sub>i</sub>** 	| **global net density** 	| **horizontal channel density** 	| **total negative slack** 	|
+        | **via density<sub>i</sub>** 	| **channel density** 	| **global net RUDY** 	| **vertical channel density** 	|
+        | where i ∈ {1, · · · , 8} represents the layer number|  	|  	|  	|
 
 
 ## ClipGraphExtract
