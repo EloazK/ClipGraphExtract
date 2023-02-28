@@ -2,7 +2,7 @@
 | <img src="/doc/overall_routablity_prediction_flow.png" width=1200px> |
 |:--:|
 | Overall routability prediction flow |
-- Tiling : the tile size affects the performance of the model, we consider the value of parameter "g" 7 as integer multiples of the SITE ROW 
+- Tiling : we define a grid cell (Gcell) that has a size of seven times the SITE ROW in units of a prediction pixel  
 - Feature extraction : we extract a total of 49 features ( 17 in the placement stage, 32 in the early global route stage) by using ClipGraphExtract
     - Placement (17 features): cell density, pin density, flipflop ratio, average terminals, number of instances, number of nets, number of terminals, number of global nets, number of local nets, RUDY, local net RUDY, global net RUDY, special net RUDY, wire density, channel density, vertical channel density, and horizontal channel density
     - EGR (32 features): wire density<sub>i</sub>, channel density<sub>i</sub>, via density<sub>i</sub> (where i ∈ {1, · · · , 8} represents the layer number), local net density, global net density, channel density, vertical channel density, horizontal channel density, worst negative slack, and total negative slack 
