@@ -1,3 +1,5 @@
+
+
 # ClipGraphExtract
 - The base sources are copied from [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) repo, commit: [7156dc](https://github.com/The-OpenROAD-Project/OpenROAD/commit/7156dc41b0be75e9090b456103a2a1510913a4d2). Unessential repos are removed to be compiled well in other environments.
 - Please read the [doc/OpenRoadArch.md](https://github.com/The-OpenROAD-Project/OpenROAD/blob/master/doc/OpenRoadArch.md) to understand the requirement. The ClipGraphExtract follows the OpenRoadArch.md manual.
@@ -10,6 +12,16 @@
 - Using OpenDB's C++ API, save all instances' bbox to Boost/RTree structure. 
 - Send a region query to RTree to extract related instances using the clips' coordinates.
 - Generate clip graph's clique/star net models as text file (e.g. edges list) for graph neural network models.
+
+## Feature
+| <img src="/doc/overall_routablity_prediction_flow.png" width=1200px> |
+|:--:|
+| Overall routability prediction flow |
+- Tile : 
+- Feature extraction : 
+- Clipping by sliding window : 
+- Tile-level routability prediction :
+
 
 ## File Structure
 -  include/openroad/  
