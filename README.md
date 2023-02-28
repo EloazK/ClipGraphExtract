@@ -20,7 +20,7 @@
         |:---:	|:---:	|:---:	|
         | **channel density<sub>i</sub>** 	| **global net density** 	| **horizontal channel density** 	|
         | **via density<sub>i</sub>** 	| **channel density** 	| **worst negative slack**	|  
-        | where i ∈ {1, · · · , 8} represents the layer number  	||  **total negative slack** 	|
+        | _where i ∈ {1, · · · , 8} represents the layer number_  	|||  **total negative slack** 	|
 
 
 ## ClipGraphExtract
