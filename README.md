@@ -6,6 +6,9 @@
 - Feature extraction : we extract a total of 49 features ( 17 in the placement stage, 32 in the early global route stage) by using ClipGraphExtract
     - Placement (17 features)
     
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-rvyq{border-color:inherit;font-style:italic;font-weight:bold;text-align:center;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
@@ -18,28 +21,28 @@
 </thead>
 <tbody>
   <tr>
-    <td class="tg-c3ow">pin density</td>
-    <td class="tg-c3ow">number of nets</td>
-    <td class="tg-c3ow">local net RUDY</td>
-    <td class="tg-c3ow">channel density</td>
+    <td class="tg-7btt">pin density</td>
+    <td class="tg-7btt">number of nets</td>
+    <td class="tg-7btt">local net RUDY</td>
+    <td class="tg-7btt">channel density</td>
   </tr>
   <tr>
-    <td class="tg-c3ow">flipflop ratio</td>
-    <td class="tg-c3ow">number of terminals</td>
-    <td class="tg-c3ow">global net RUDY</td>
-    <td class="tg-c3ow">vertical channel density</td>
+    <td class="tg-7btt">flipflop ratio</td>
+    <td class="tg-7btt">number of terminals</td>
+    <td class="tg-7btt">global net RUDY</td>
+    <td class="tg-7btt">vertical channel density</td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><span style="font-style:italic">average terminals</span></td>
-    <td class="tg-c3ow">number of global nets</td>
-    <td class="tg-c3ow">special net RUDY</td>
-    <td class="tg-c3ow">horizontal channel density</td>
+    <td class="tg-rvyq"><span style="font-style:italic">average terminals</span></td>
+    <td class="tg-7btt">number of global nets</td>
+    <td class="tg-7btt">special net RUDY</td>
+    <td class="tg-7btt">horizontal channel density</td>
   </tr>
   <tr>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow">number of local nets</td>
-    <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"></td>
+    <td class="tg-7btt"></td>
+    <td class="tg-7btt">number of local nets</td>
+    <td class="tg-7btt"></td>
+    <td class="tg-7btt"></td>
   </tr>
 </tbody>
 </table>
